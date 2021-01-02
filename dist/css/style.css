@@ -1,0 +1,996 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+
+}
+body{
+    font-family: sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    padding:0px;
+    margin:0px;
+}
+/*======= Header Area=======**/
+.header-top {
+	background-color:#12475a;
+	font-size: 12px;
+	padding: 8px;
+}
+.header-top-left{
+    text-align: left;
+    
+}
+.header-top-left li{
+    display: inline-block;
+}
+.header-top-left li a{
+    margin-right: 10px;
+    color:#fff;
+}
+.header-top-left li a:hover{
+    color:#f7631b;
+}
+.header-top-right{
+    text-align: right;
+}
+.header-top-right a{
+    margin-left: 10px;
+    color:#fff;
+    font-weight: 300;
+    text-decoration: none;
+}
+#slide-section{
+    height: 500px;
+}
+#showcase{
+    background:url('../images/banner/showcase.jpg');
+    height: 500px;
+    background-position: center center/cover;
+}
+#showcae h1{
+    font-size:32px;
+    color:#56a79a;
+    text-align: justify;
+}
+.private-news{
+
+    background:#04091e;
+    color:#fff;
+    font-size:24px;
+
+}
+/****Admin Panel--------***/
+#admin-login-section {
+	width: 100%;
+	margin: 50px auto;
+    border: 1px solid #888;
+    height:325px;
+}
+.admin_secondary_har{
+    margin-bottom:5px;
+}
+#admin-login-section p{
+
+        margin-top: 10px;
+        font-size: 17px;
+        font-style: italic;
+    
+}
+#admin-login-section ul{
+    list-style:none;
+    margin-bottom:9px;
+    float:right;
+}
+#admin-login-section ul li {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border: 1px solid #888;
+	border-radius: 50%;
+	line-height: 35px;
+	text-align: center;
+    margin-left: 10px;
+    transition:1s;
+}
+#admin-login-section ul li:hover{
+    transform:rotate(360deg);
+    background:#12475a;
+    
+}
+#admin_table{
+    width:90%;
+    margin-left:70px;
+
+
+
+}
+#admin_table tr{
+    height:40px;
+}
+#admin_table input[type="text"],input[type="password"]{
+    
+        width: 250px;
+        height: 28px;
+        border: 1px solid #999;
+    
+}
+.forgot_td{
+    text-align: right;
+    margin-right:15px;
+
+}
+.forgot_td a{
+    margin-right:20px;
+}
+#admin_table input[type="submit"]{
+
+        -webkit-appearance: button;
+        width: 89px;
+        height: 32px;
+        background: #12475a;
+        color: #fff;
+        border: none;
+    
+}
+.admin-check{
+    font-size:14px;
+}
+
+#admin-login-section hr{
+ margin-top:12px;
+    border:1px solid #888;
+}
+
+@media(max-width:500px){
+    #admin_table{
+        width:90%;
+        margin-left:0px;
+        height:auto;
+    
+    
+    }
+}
+@media(max-width:404){
+    #admin_table{
+        width:100%;
+        margin-left:0px;
+        height:auto;
+    
+    
+    }
+}
+/***====== Add_Student--area-----**========**/
+#showcase-2{
+    background:url('../images/banner/showcase-2.jpg');
+    height: 400px;
+    background-position: center center/cover;
+}
+.student-info{
+    
+    color:#12475a;
+    font-family: sans-serif;
+    font-size:18px;
+    
+}
+/***** Update student information-------**/
+.student_info_update{
+    color:#12475a;
+    font-family: sans-serif;
+    font-size:18px;
+
+}
+.student-info form{
+    font-size:18px;
+}
+.student-info input{
+background:transparent;border:0;    border-bottom:1px solid #12475a;padding-bottom:5px;margin-bottom:7px;color:#12475a;
+}
+.student-info select{
+    background:transparent;
+    border:0;    border-bottom:1px solid #12475a;padding-bottom:5px;margin-bottom:7px;color:#12475a;
+
+}
+
+
+/*** ================
+==== Result -section------**/
+#result-title-list{
+    border:1px solid #ddd;
+    padding:5px;
+    
+    
+}
+
+#result-title-list ul li{
+    list-style: none;
+    width:100%;
+    height:35px;
+    margin-bottom:5px;
+    border-bottom:1px solid #ddd;
+   
+    
+}
+#result-title-list ul li:nth-child(1){
+ 
+    background-color:#0086B2;
+    color:#fff;
+    
+}
+
+#result-title-list ul li a{
+    font-size:16px;
+    line-height: 35px;
+    padding:5px;
+    color:#000;
+    
+    text-decoration: none;
+    
+}
+
+#result-title-list ul li:hover{
+    background:#0086B2;
+    
+}
+#result-title-list ul li a:hover{
+    color:#fff;
+}
+/***** Result_upload---------**/
+#result-upload{
+    background:#033749;
+    text-align: right;
+}
+#result-upload ul{
+    padding:0px;
+    margin:0px;
+    
+}
+#result-upload ul li{
+    display:inline-block;
+    list-style: none;
+}
+#result-upload ul  li a{
+    display: block;
+    padding:10px 12px;
+    color:#fff;
+    text-decoration: none;
+    text-transform: capitalize;
+
+    font-size:18px;
+
+}
+#result-upload ul li:hover{
+    background-color: #218838;
+}
+#result-upload ul li:last-child{
+    background-color: #218838;
+}
+/*** SSC_UPLOAD------*/
+#ssc-upload-title{
+    background-color: #04091e;
+    height:auto;
+    padding:30px;
+    color:#fff;
+    font-size:18px;
+    margin:30px auto;
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px #04091e;
+}
+#psc-upload-title{
+    background:#331203;
+    height:auto;
+    padding:30px;
+    color:#fff;
+    font-size:18px;
+    margin:30px auto;
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px #331203;
+}
+#jsc-upload-title{
+    background:#000000;
+    height:auto;
+    padding:30px;
+    color:#fff;
+    font-size:18px;
+    margin:30px auto;
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px #331203;
+}
+#student_list{
+   margin-top:50px;
+  
+  
+}
+#student-list-table{
+    background:#12475a;
+    
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size:18px;
+    box-shadow: 15px 15px 30px #033749;
+    
+}
+#show-data td{
+    border:1px solid #12475a;
+}
+
+#show-full-info{
+    margin:auto;
+    margin-bottom:20px;
+    
+}
+#show-table{
+    color:black;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding:20px;
+    
+    
+}
+#teacher-list-showcase{
+    height:420px;
+    background:url('../images/banner/showcase.jpg');
+    position:relative;
+
+    background-position: center center/cover;
+}
+#teacher-list-showcase:before{
+    content: "";
+    position: absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,.7);
+}
+#teacher-list-showcase h3{
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+
+}
+#teacher-list-showcase p{
+ 
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#teacher-list-showcase p a{
+    text-decoration: none;
+    font-size:14px;
+    color:#fff;
+}
+#teacher-list{
+    margin-top:100px;
+    text-align: center;
+}
+#teacher-list img{
+    width:120px;
+    height:120px;
+    border-radius: 50%;
+    margin-bottom:7px;
+}
+#teacher-list h3{
+    font-size:18px;
+    margin-bottom:15px;
+    color:#e04305;
+}
+#teacher-list p{
+    margin-bottom:15px;
+}
+#teacher-list a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    font-size:14px;
+    
+    font-family: sans-serif;
+    font-weight: 400;
+    padding:12px 20px;
+    background:#72D5CD;
+}
+#profile{
+    margin-bottom:40px;
+}
+#profile-dec p{
+    text-align: left;
+    font-size:18px;
+    line-height: 160%;
+}
+.text-title{
+    font-size:32px;
+    color:#12475a;
+
+}
+#online-result-showcase{
+    background:url('../images/banner/showcase-2.jpg');
+    height: 400px;
+    background-position: center center/cover;
+}
+#primary-result-upload-title{
+    background:#1103db;
+    height:auto;
+    padding:30px;
+    color:#fff;
+    font-size:18px;
+    margin:25px auto;
+    border-radius: 5px;
+    box-shadow: 15px 15px 30px #331203;
+}
+.primary{
+    color:tomato;
+    font-weight: 400;
+}
+#class_3_5_section{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#update_search_section{
+    margin-top:45px;
+    
+}
+#ur_update_section{
+    padding:25px;
+    background:#031a22;
+    border-radius: 10px;
+    color:#56a79a;
+}
+#update_search_result{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#file-upload-section {
+	margin: 30px auto;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: 400;
+	background: #000315;
+    color: #fff;
+    border-radius: 7px;
+}
+#file-upload-section h3{
+    padding-top:15px;
+}
+#file-upload-section form{
+    padding:15px;
+}
+#add-data{
+    margin-bottom:30px;
+    margin-top:10px;
+}
+#add-data form{
+    padding:15px;
+}
+#add-data h3{
+    padding-top:10px;
+}
+#city{
+     background-color: #331203;
+     color:#fff;
+}
+#village{
+     background-color: #030303;
+     color:#fff;
+   
+     
+}
+#notice-section{
+    margin-top:5px;
+}
+#main_menu_notice{
+    border:1px solid #060b1d;
+    padding:0px;
+    height:auto;
+    background:#12475a;
+}
+#menu-list-notice {
+	background-color: #331203;
+	height: 40px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: 400;
+    width: 100%;
+   
+	
+}
+
+#main_menu_notice ul li {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    list-style-type: none;
+    border-bottom: 1px dashed #ddd;
+    padding-left:20px;
+}
+
+#main_menu_notice ul li a {
+    text-decoration: none;
+    color:#56a79a;
+}
+.latest_news{
+    height:100px;
+    overflow: hidden;
+    font-size:18px;
+    color:tomato;
+    border:1px solid #12475a;
+    padding:4px;
+    text-align: justify;
+    background-color: #12475a;
+}
+.hotline{
+    color:#56a79a;
+    padding-left:7px;
+    font-size:16px;
+}
+.hotline i{
+    color:#e04305;
+    margin-right:7px;
+}
+.subscribe label{
+    
+    font-size:18px;
+}
+
+.notice_title{
+    font-weight: bold;
+    font-size:20px;
+    color:#12457a;
+    margin-top:7px;
+    margin-left: 7px;
+}
+.middle_1{
+    border:2px solid #ddd;
+}
+#notice_table td{
+    border:4px solid #ddd;
+}
+#notice_table th{
+    background:#12475a;
+    color:#fff;
+    margin:5px;
+    font-size:22px;
+    font-weight: 400;
+}
+
+
+/*********** NOTICE ITEM SECTION==============**/
+#notice_number{
+  height:70px;
+ 
+  width:100%;
+}
+#notice_number ul{
+    padding:0;
+   
+   margin-top:10px;
+}
+#notice_number ul li{
+    list-style: none;
+    display:inline-block;
+    border:1px solid #12475a;
+    margin-left:10px;
+    margin-bottom:20px;
+   
+}
+#notice_number ul li a{
+     padding:12px 15px ;
+    color:#12475a;
+    font-size:18px;
+   text-decoration: none;
+    text-align: center;
+}
+
+/************** Students Info==================== **/
+#teacher_info{
+    margin-top:20px;
+}
+#profile{
+    text-align: center;
+    background-color: #ddd;
+    box-shadow: 10px 10px 20px #031a22;
+    margin-left:45px;
+}
+#profile img{
+    width:185px;
+    height:185px;
+    border-radius: 50%;
+    margin-top:7px;
+}
+#profile h4{
+    color:#12475a;
+    margin-top:7px;
+    font-size:20px;
+    font-weight: 700;
+}
+#profile span{
+    color:#888;
+    font-weight: 400;
+    font-size:18px;
+}
+#profile h5{
+    color:tomato;
+    font-weight: 700;
+    margin-top:5px;
+}
+#profile ul{
+    margin-bottom:15px;
+    margin-top:15px;
+}
+#profile ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:3px;
+}
+#profile ul li a{
+    display: block;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    border:1px solid #12475a;
+    border-radius: 50%;
+    transition: .5s;
+}
+#profile ul li a:hover{
+  color:#fff;
+  transform: rotate(360deg);
+  background: #ff6347;
+  border:1px solid #ff6347;
+}
+
+.contact_details p{
+    color:#000000;
+    font-size:16px;
+    font-weight: 400;
+}
+ul.icon{
+    float: left;
+}
+ul.icon li{
+    list-style: none;
+    margin-bottom:35px;
+}
+ul.icon li i{
+    font-size:28px;
+    color:tomato;
+}
+.icon-details{
+    float: left;
+    
+}
+ul.icon-details{
+    padding:0px;
+   list-style: none;
+   margin-left:7px;
+}
+ul.icon-details li:nth-child(even){
+      margin-bottom:12px;
+}
+#send-message{
+
+
+ color:#032633;
+ font-size: 18px;
+ padding-top:10px;
+}
+#send-message input,select{
+    width:100%;
+    border:none;
+    
+    height:40px;
+    padding:7px;
+    margin-bottom:10px;
+    color:#f7631b;
+    border-bottom:1px solid #032633;
+
+}
+#student_message{
+    width:100%;
+    height:200px;
+    background-color: transparent;
+    color:#032633;
+   
+}
+
+#send-message input[type="submit"]{
+    background:#032633;
+    width:170px;
+    height:45px;
+    color:#fff;
+    cursor: pointer;
+}
+.icon i{
+    font-size:40px;
+    color:#f7631b;
+}
+.icon-x i{
+    font-size:30px;
+    color:#f7631b;
+}
+.icon-f i{
+    font-size: 30px;
+    color:green;
+}
+.contact_details h5{
+    font-size:17px;
+    color:#000000;
+    font-weight: 400;
+}
+.contact_details p{
+    color:#444;
+    font-size:15px;
+}
+.full_message_show{
+    background:#060b1d;
+    font-size:22px;
+    font-weight: 400;
+    line-height: 1.3;
+    color:#fff;
+    
+}
+.full_message_show p{
+    padding:10px;
+}
+
+#private_footer{
+    height:70px;
+    background:#12475a;
+    
+    font-size:17px;
+    color:#fff;
+    text-align: center;
+    line-height: 70px;
+}
+.student_message_min_show{
+    height:1200px;
+    width:100%;
+    overflow: auto;
+}
+#result_from{
+    
+    margin-top:30px;
+    width:100%;
+    height:300px;
+    padding:0px;
+    font-size:18px;
+    font-weight: 400;
+    color:#000000;
+}
+#result_from td:nth-child(odd){
+    width:35%;
+}
+#result_from input[type="number"],select{
+    width:100%;
+    height:40px;
+    padding-left:10px;
+    border:1px solid #777;   
+}
+.total_marks{
+    font-size:26px;
+   
+    color:#12475a;
+    font-weight: 800;
+    line-height: 100px;
+}
+.total_marks2{
+    font-size:26px;
+   
+    color:#12475a;
+    font-weight: 800;
+    line-height: 300px;
+}
+.total_class_5{
+    font-size:26px;
+    color:#e04305;
+    font-weight: 800;
+    
+}
+#result_table{
+    font-size:22px;
+    color:#000000;
+ 
+}
+#result_table td{
+    border:1px solid #12475a;
+}
+#result_table th{
+    font-size:18px;
+    font-weight: 400;
+    border:1px solid #12475a;
+    color:#331203;
+}
+.result_show_title_table{
+    text-align: center;
+}
+.result_show_title_table h3,h4{
+    color:#222;
+    margin-top:5px;
+}
+#get_result_from{
+    padding:30px;
+    border:1px solid #333;
+    
+}
+/*** Gallery----------------
+-----------------**/
+#showcase_gallery{
+    padding:5px;
+ height:450px;
+ background:url('../images/banner/banner-bg.jpg');
+ background-size: cover;
+ position: relative;
+}
+#showcase_gallery::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.7);
+}
+.banner_data{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:#fff;
+   
+    transform: translate(-50%,-50%);
+}
+.banner_data h2{
+    font-size:52px;
+    font-weight: 500;
+}
+.sp{
+    color:tomato;
+    font-size:18px;
+}
+.gallery_photo_section{
+    margin-top:88px;
+}
+#gallery img{
+ width:100%;
+ height:277px;
+ border:4px solid #ddd;
+}
+#gallery{
+    margin-top:25px;
+
+}
+/*******Footer---------------*/
+#footer_section{
+    background-color: #010413;
+    width:100%;
+    height:auto;
+    padding:15px;
+    margin-top:120px;
+}
+#footer_item{
+    margin-top:70px;
+}
+#footer_section h4{
+    color:#fff;
+    font-weight: 400;
+    font-size:20px;
+}
+#footer_section ul{
+    padding:0px;
+    margin:0px;
+    list-style: none;
+}
+#footer_section ul li
+{
+    margin-bottom:5px;
+}
+#footer_section ul li i{
+    color:tomato;
+    margin-right:7px;
+}
+#footer_section ul li a{
+    text-decoration: none;
+    color:#777;
+    font-size:16px;
+    font-weight: 400;
+}
+#footer_section ul li a:hover{
+    color:tomato;
+}
+#footer_section  p{
+    color:#777;
+    font-weight: 400;
+}
+#main_footer{
+    width:100%;
+    height:70px;
+    font-size:18px;
+    font-weight: 400;
+    text-align:center;
+    background:#060b1d;
+    line-height: 70px;
+    color:#fff;
+}
+#academic_cost_select_box{
+    border-bottom:2px dotted #12475a;
+    height:45px;
+    font-size:18px;
+}
+#academic_cost_select_box option{
+ font-size:18px;
+ color:#12475a;
+ 
+
+}
+#academic_cost_insert{
+    margin-top:20px;
+    font-size:18px;
+    min-height:500px;
+    
+}
+#academic_cost_insert_form{
+    background:#fff;
+    padding:20px;
+    color:#12475a;
+}
+#academic_cost_insert_form input{
+    background:transparent;
+    color:#12457a;
+    border:1px solid #222;
+    margin-bottom:15px;
+}
+#academic_cost_insert_form select{
+    background-color: transparent;
+    color:#56a79a;
+    font-size:18px;
+    background:#060b1d;
+    
+
+}
+#online_result_show{
+    margin-top:70px;
+    width:100%;
+    min-height: 600px;
+}
+/**GOOGLE MAP---------**/
+#google_map{
+ border-bottom:2px dashed #010413;
+ border-top:2px dashed #060b1d;
+}
+#map_title h2{
+    text-align: center;
+    color:#12475a;
+
+}
+#map_title{
+    margin-top:30px;
+    margin-bottom:20px;
+    width:100%;
+    height:auto;
+}
+#total_visitor{
+    background:#ff7505;
+    height:170px;
+    border:3px dashed #331203;
+    box-shadow: 15px 15px 30px #033749;
+}
+#total_visitor h4{
+    border-bottom:3px dashed #e04305;
+    color:black;
+    font-weight: 700;
+    text-align: center;
+}
+#total_visitor h1 {
+	font-size: 69px;
+	color: #12475a;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 20px;
+	border: 4px dashed #12475a;
+	margin-top: 7px;
+}

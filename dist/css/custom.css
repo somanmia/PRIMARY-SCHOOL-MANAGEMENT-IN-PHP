@@ -1,0 +1,26 @@
+.bg-light {
+	background-color: #032633 !important;
+}
+.w-100 {
+	width: 100% !important;
+    height: 500px;
+    
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.subscribe .form-control {
+	display: block;
+	width: 95%;
+	padding: .360rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #56a79a;
+	background-color: transparent;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
