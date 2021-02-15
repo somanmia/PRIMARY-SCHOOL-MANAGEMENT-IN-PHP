@@ -121,6 +121,8 @@
                     <h4>Ebrahim Khulil</h4>
                     <span>Head Master</span>
                     <h5>I Deal Exercise School</h5>
+                    <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
                     <ul>
                         <li><a href=""><i class="fa fa-facebook"></i></a></li>
                         <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -131,10 +133,12 @@
 
             <!--2-->
             <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
-                <img src="dist/images/teachers/1.jpg" alt="Ebarahim Khulil Picture">
-               <h4>Ebrahim Khulil</h4>
+                <img src="dist/images/teachers/2.jpg" alt="Ebarahim Khulil Picture">
+               <h4>Md: Kamrul Islam</h4>
                <span>Head Master</span>
                <h5>I Deal Exercise School</h5>
+               <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
                <ul>
                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -145,10 +149,12 @@
        <!--3-->
 
        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
-        <img src="dist/images/teachers/1.jpg" alt="Ebarahim Khulil Picture">
+        <img src="dist/images/teachers/headmaster.jpg" alt="Ebarahim Khulil Picture">
        <h4>Ebrahim Khulil</h4>
        <span>Head Master</span>
        <h5>I Deal Exercise School</h5>
+       <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
        <ul>
            <li><a href=""><i class="fa fa-facebook"></i></a></li>
            <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -159,9 +165,11 @@
 <!--4-->
 <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
     <img src="dist/images/teachers/1.jpg" alt="Ebarahim Khulil Picture">
-   <h4>Ebrahim Khulil</h4>
+   <h4>Junaid Hossain</h4>
    <span>Head Master</span>
    <h5>I Deal Exercise School</h5>
+   <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
    <ul>
        <li><a href=""><i class="fa fa-facebook"></i></a></li>
        <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -171,10 +179,12 @@
 </div>
 <!--5-->
 <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
-  <img src="dist/images/teachers/1.jpg" alt="Ebarahim Khulil Picture">
+  <img src="dist/images/teachers/2.jpg" alt="Ebarahim Khulil Picture">
  <h4>Ebrahim Khulil</h4>
  <span>Head Master</span>
  <h5>I Deal Exercise School</h5>
+ <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
  <ul>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -184,10 +194,12 @@
 </div>
 <!---6-->
 <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
-  <img src="dist/images/teachers/1.jpg" alt="Ebarahim Khulil Picture">
- <h4>Ebrahim Khulil</h4>
+  <img src="dist/images/teachers/headmaster.jpg" alt="Ebarahim Khulil Picture">
+ <h4>Kausar Hossain</h4>
  <span>Head Master</span>
  <h5>I Deal Exercise School</h5>
+ <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
  <ul>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -197,10 +209,12 @@
 </div>
 <!--7-->
 <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
-  <img src="dist/images/teachers/1.jpg" alt="Ebarahim Khulil Picture">
- <h4>Ebrahim Khulil</h4>
+  <img src="dist/images/teachers/3.jpg" alt="Ebarahim Khulil Picture">
+ <h4>Sohel Rana</h4>
  <span>Head Master</span>
  <h5>I Deal Exercise School</h5>
+ <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+ <p class="text-danger">Email:developer@gmail.com</p>
  <ul>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -210,10 +224,11 @@
 </div>
 <!---8-->
 <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
-  <img src="dist/images/teachers/1.jpg" alt="Ebarahim Khulil Picture">
- <h4>Ebrahim Khulil</h4>
+  <img src="dist/images/teachers/4.jpg" alt="Ebarahim Khulil Picture">
+ <h4>Sofiqul Islam</h4>
  <span>Head Master</span>
  <h5>I Deal Exercise School</h5>
+ <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>   <p class="text-danger">Email:developer@gmail.com</p>
  <ul>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -224,10 +239,59 @@
 
 <!---9-->
 <div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
-  <img src="dist/images/teachers/1.jpg" alt="Ebarahim Khulil Picture">
- <h4>Ebrahim Khulil</h4>
+  <img src="dist/images/teachers/5.jpg" alt="Ebarahim Khulil Picture">
+ <h4>David Warner</h4>
  <span>Head Master</span>
  <h5>I Deal Exercise School</h5>
+ <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
+ <ul>
+     <li><a href=""><i class="fa fa-facebook"></i></a></li>
+     <li><a href=""><i class="fa fa-facebook"></i></a></li>
+     <li><a href=""><i class="fa fa-facebook"></i></a></li>
+ </ul>
+
+</div>
+
+<!---10-->
+<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
+  <img src="dist/images/teachers/5.jpg" alt="Ebarahim Khulil Picture">
+ <h4>David Warner</h4>
+ <span>Head Master</span>
+ <h5>I Deal Exercise School</h5>
+ <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
+ <ul>
+     <li><a href=""><i class="fa fa-facebook"></i></a></li>
+     <li><a href=""><i class="fa fa-facebook"></i></a></li>
+     <li><a href=""><i class="fa fa-facebook"></i></a></li>
+ </ul>
+
+</div>
+<!--11---> 
+<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
+  <img src="dist/images/teachers/5.jpg" alt="Ebarahim Khulil Picture">
+ <h4>David Warner</h4>
+ <span>Head Master</span>
+ <h5>I Deal Exercise School</h5>
+ <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
+ <ul>
+     <li><a href=""><i class="fa fa-facebook"></i></a></li>
+     <li><a href=""><i class="fa fa-facebook"></i></a></li>
+     <li><a href=""><i class="fa fa-facebook"></i></a></li>
+ </ul>
+
+</div>
+
+<!---12-->
+<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3" id="profile">
+  <img src="dist/images/teachers/5.jpg" alt="Ebarahim Khulil Picture">
+ <h4>David Warner</h4>
+ <span>Head Master</span>
+ <h5>I Deal Exercise School</h5>
+ <p class="text-primary mt-2">Phone:<i class="fa fa-phone"></i> 01812084186</p>
+                    <p class="text-danger">Email:developer@gmail.com</p>
  <ul>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
      <li><a href=""><i class="fa fa-facebook"></i></a></li>
@@ -239,6 +303,16 @@
     </div>
 
 </section>
+
+
+<!---Last Row----->
+
+
+
+
+
+
+
 
 <!--FOOTER SECTION----> 
 <footer id="footer_section">
